@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="historia.html">Historia</a>
+            <a href="futuro.html">Futuro</a>
+            <a href="video.html">Video</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Nuestro Futuro</h1>
+        <img id="sobre" src="images/img2.jpg" alt="Sobre" onclick="mostrarCarta()" style="cursor: pointer; width: 150px;">
+        <div id="carta" class="carta" style="display: none;">
+            <p>Querida Avril,
+
+                Hoy quiero regalarte palabras que expresen lo que a veces no alcanzo a decir con gestos.
+                
+                Cuando pienso en vos, todo se llena de luz, de vida, de un color único que el mundo jamás podría igualar. Sos mi mayor inspiración, y por eso escribí este pequeño poema para vos:
+                
+                "Sos mi Sol y mi Lluvia"
+                Sos el sol que acaricia el día,
+                la brisa suave que el alma ansía.
+                En cada palabra, un mundo dibujás,
+                y en tus ojos, mi vida se iluminá.
+                
+                Sos la lluvia que calma la sed,
+                un refugio dulce al anochecer.
+                Tu risa es el canto que siempre me encuentra,
+                mi norte, mi guía, mi estrella perpetua.
+                
+                Si el tiempo pudiera robarte un suspiro,
+                le rogaría dejarme contigo.
+                Porque en tus brazos, el mundo se calma,
+                y en tu sonrisa, vive mi alma.
+                
+                </p>
+            <p>Espero que esta carta y este poema puedan sacarte una sonrisa, como vos hacés conmigo cada día.
+
+                Con todo mi amor,
+                Gabriel des Rotours</p>
+           
+            <img src="images/img1.jpg" alt="Sobre abierto" style="margin-top: 20px; width: 150px;">
+        </div>
+    </main>
+    <script>
+        function mostrarCarta() {
+            document.getElementById('sobre').style.display = 'none';
+            document.getElementById('carta').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
